@@ -1,0 +1,17 @@
+regexp
+======
+
+operations
+    a. pattern matching     (grep)
+    b. find & replacement   (sed)
+    c. split                (awk)
+
+
+default characteristics of regular expression
+
+    i. case sensitive
+    ii. match only once in line
+    iii. match for the sub string
+    iv. greedy in nature  (atmost)
+
+

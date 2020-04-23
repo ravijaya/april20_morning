@@ -1,0 +1,378 @@
+{
+  "root": {
+    "password": "x",
+    "uid": "0",
+    "gid": "0",
+    "gecos": "root",
+    "home": "/root",
+    "shell": "/bin/bash"
+  },
+  "daemon": {
+    "password": "x",
+    "uid": "1",
+    "gid": "1",
+    "gecos": "daemon",
+    "home": "/usr/sbin",
+    "shell": "/usr/sbin/nologin"
+  },
+  "bin": {
+    "password": "x",
+    "uid": "2",
+    "gid": "2",
+    "gecos": "bin",
+    "home": "/bin",
+    "shell": "/usr/sbin/nologin"
+  },
+  "sys": {
+    "password": "x",
+    "uid": "3",
+    "gid": "3",
+    "gecos": "sys",
+    "home": "/dev",
+    "shell": "/usr/sbin/nologin"
+  },
+  "sync": {
+    "password": "x",
+    "uid": "4",
+    "gid": "65534",
+    "gecos": "sync",
+    "home": "/bin",
+    "shell": "/bin/sync"
+  },
+  "games": {
+    "password": "x",
+    "uid": "5",
+    "gid": "60",
+    "gecos": "games",
+    "home": "/usr/games",
+    "shell": "/usr/sbin/nologin"
+  },
+  "man": {
+    "password": "x",
+    "uid": "6",
+    "gid": "12",
+    "gecos": "man",
+    "home": "/var/cache/man",
+    "shell": "/usr/sbin/nologin"
+  },
+  "lp": {
+    "password": "x",
+    "uid": "7",
+    "gid": "7",
+    "gecos": "lp",
+    "home": "/var/spool/lpd",
+    "shell": "/usr/sbin/nologin"
+  },
+  "mail": {
+    "password": "x",
+    "uid": "8",
+    "gid": "8",
+    "gecos": "mail",
+    "home": "/var/mail",
+    "shell": "/usr/sbin/nologin"
+  },
+  "news": {
+    "password": "x",
+    "uid": "9",
+    "gid": "9",
+    "gecos": "news",
+    "home": "/var/spool/news",
+    "shell": "/usr/sbin/nologin"
+  },
+  "uucp": {
+    "password": "x",
+    "uid": "10",
+    "gid": "10",
+    "gecos": "uucp",
+    "home": "/var/spool/uucp",
+    "shell": "/usr/sbin/nologin"
+  },
+  "proxy": {
+    "password": "x",
+    "uid": "13",
+    "gid": "13",
+    "gecos": "proxy",
+    "home": "/bin",
+    "shell": "/usr/sbin/nologin"
+  },
+  "www-data": {
+    "password": "x",
+    "uid": "33",
+    "gid": "33",
+    "gecos": "www-data",
+    "home": "/var/www",
+    "shell": "/usr/sbin/nologin"
+  },
+  "backup": {
+    "password": "x",
+    "uid": "34",
+    "gid": "34",
+    "gecos": "backup",
+    "home": "/var/backups",
+    "shell": "/usr/sbin/nologin"
+  },
+  "list": {
+    "password": "x",
+    "uid": "38",
+    "gid": "38",
+    "gecos": "Mailing List Manager",
+    "home": "/var/list",
+    "shell": "/usr/sbin/nologin"
+  },
+  "irc": {
+    "password": "x",
+    "uid": "39",
+    "gid": "39",
+    "gecos": "ircd",
+    "home": "/var/run/ircd",
+    "shell": "/usr/sbin/nologin"
+  },
+  "gnats": {
+    "password": "x",
+    "uid": "41",
+    "gid": "41",
+    "gecos": "Gnats Bug-Reporting System (admin)",
+    "home": "/var/lib/gnats",
+    "shell": "/usr/sbin/nologin"
+  },
+  "nobody": {
+    "password": "x",
+    "uid": "65534",
+    "gid": "65534",
+    "gecos": "nobody",
+    "home": "/nonexistent",
+    "shell": "/usr/sbin/nologin"
+  },
+  "_apt": {
+    "password": "x",
+    "uid": "100",
+    "gid": "65534",
+    "gecos": "",
+    "home": "/nonexistent",
+    "shell": "/usr/sbin/nologin"
+  },
+  "systemd-timesync": {
+    "password": "x",
+    "uid": "101",
+    "gid": "102",
+    "gecos": "systemd Time Synchronization,,,",
+    "home": "/run/systemd",
+    "shell": "/usr/sbin/nologin"
+  },
+  "systemd-network": {
+    "password": "x",
+    "uid": "102",
+    "gid": "103",
+    "gecos": "systemd Network Management,,,",
+    "home": "/run/systemd",
+    "shell": "/usr/sbin/nologin"
+  },
+  "systemd-resolve": {
+    "password": "x",
+    "uid": "103",
+    "gid": "104",
+    "gecos": "systemd Resolver,,,",
+    "home": "/run/systemd",
+    "shell": "/usr/sbin/nologin"
+  },
+  "messagebus": {
+    "password": "x",
+    "uid": "104",
+    "gid": "110",
+    "gecos": "",
+    "home": "/nonexistent",
+    "shell": "/usr/sbin/nologin"
+  },
+  "tss": {
+    "password": "x",
+    "uid": "105",
+    "gid": "111",
+    "gecos": "TPM2 software stack,,,",
+    "home": "/var/lib/tpm",
+    "shell": "/bin/false"
+  },
+  "dnsmasq": {
+    "password": "x",
+    "uid": "106",
+    "gid": "65534",
+    "gecos": "dnsmasq,,,",
+    "home": "/var/lib/misc",
+    "shell": "/usr/sbin/nologin"
+  },
+  "avahi-autoipd": {
+    "password": "x",
+    "uid": "107",
+    "gid": "114",
+    "gecos": "Avahi autoip daemon,,,",
+    "home": "/var/lib/avahi-autoipd",
+    "shell": "/usr/sbin/nologin"
+  },
+  "usbmux": {
+    "password": "x",
+    "uid": "108",
+    "gid": "46",
+    "gecos": "usbmux daemon,,,",
+    "home": "/var/lib/usbmux",
+    "shell": "/usr/sbin/nologin"
+  },
+  "rtkit": {
+    "password": "x",
+    "uid": "109",
+    "gid": "115",
+    "gecos": "RealtimeKit,,,",
+    "home": "/proc",
+    "shell": "/usr/sbin/nologin"
+  },
+  "pulse": {
+    "password": "x",
+    "uid": "111",
+    "gid": "119",
+    "gecos": "PulseAudio daemon,,,",
+    "home": "/var/run/pulse",
+    "shell": "/usr/sbin/nologin"
+  },
+  "speech-dispatcher": {
+    "password": "x",
+    "uid": "112",
+    "gid": "29",
+    "gecos": "Speech Dispatcher,,,",
+    "home": "/var/run/speech-dispatcher",
+    "shell": "/bin/false"
+  },
+  "avahi": {
+    "password": "x",
+    "uid": "113",
+    "gid": "121",
+    "gecos": "Avahi mDNS daemon,,,",
+    "home": "/var/run/avahi-daemon",
+    "shell": "/usr/sbin/nologin"
+  },
+  "saned": {
+    "password": "x",
+    "uid": "114",
+    "gid": "122",
+    "gecos": "",
+    "home": "/var/lib/saned",
+    "shell": "/usr/sbin/nologin"
+  },
+  "colord": {
+    "password": "x",
+    "uid": "115",
+    "gid": "123",
+    "gecos": "colord colour management daemon,,,",
+    "home": "/var/lib/colord",
+    "shell": "/usr/sbin/nologin"
+  },
+  "geoclue": {
+    "password": "x",
+    "uid": "116",
+    "gid": "124",
+    "gecos": "",
+    "home": "/var/lib/geoclue",
+    "shell": "/usr/sbin/nologin"
+  },
+  "hplip": {
+    "password": "x",
+    "uid": "117",
+    "gid": "7",
+    "gecos": "HPLIP system user,,,",
+    "home": "/var/run/hplip",
+    "shell": "/bin/false"
+  },
+  "Debian-gdm": {
+    "password": "x",
+    "uid": "118",
+    "gid": "125",
+    "gecos": "Gnome Display Manager",
+    "home": "/var/lib/gdm3",
+    "shell": "/bin/false"
+  },
+  "ravijaya": {
+    "password": "x",
+    "uid": "1000",
+    "gid": "1000",
+    "gecos": "ravijaya,,,",
+    "home": "/home/ravijaya",
+    "shell": "/bin/bash"
+  },
+  "systemd-coredump": {
+    "password": "x",
+    "uid": "999",
+    "gid": "999",
+    "gecos": "systemd Core Dumper",
+    "home": "/",
+    "shell": "/usr/sbin/nologin"
+  },
+  "jenkins": {
+    "password": "x",
+    "uid": "119",
+    "gid": "127",
+    "gecos": "Jenkins,,,",
+    "home": "/var/lib/jenkins",
+    "shell": "/bin/bash"
+  },
+  "training": {
+    "password": "x",
+    "uid": "1001",
+    "gid": "1001",
+    "gecos": ",,,",
+    "home": "/home/training",
+    "shell": "/bin/bash"
+  },
+  "docker-registry": {
+    "password": "x",
+    "uid": "120",
+    "gid": "128",
+    "gecos": "Docker Registry,,,",
+    "home": "/var/lib/docker-registry",
+    "shell": "/usr/sbin/nologin"
+  },
+  "smmta": {
+    "password": "x",
+    "uid": "121",
+    "gid": "131",
+    "gecos": "Mail Transfer Agent,,,",
+    "home": "/var/lib/sendmail",
+    "shell": "/usr/sbin/nologin"
+  },
+  "smmsp": {
+    "password": "x",
+    "uid": "122",
+    "gid": "132",
+    "gecos": "Mail Submission Program,,,",
+    "home": "/var/lib/sendmail",
+    "shell": "/usr/sbin/nologin"
+  },
+  "_rpc": {
+    "password": "x",
+    "uid": "123",
+    "gid": "65534",
+    "gecos": "",
+    "home": "/run/rpcbind",
+    "shell": "/usr/sbin/nologin"
+  },
+  "nagios": {
+    "password": "x",
+    "uid": "124",
+    "gid": "133",
+    "gecos": "",
+    "home": "/var/lib/nagios",
+    "shell": "/usr/sbin/nologin"
+  },
+  "sshd": {
+    "password": "x",
+    "uid": "110",
+    "gid": "65534",
+    "gecos": "",
+    "home": "/run/sshd",
+    "shell": "/usr/sbin/nologin"
+  },
+  "statd": {
+    "password": "x",
+    "uid": "125",
+    "gid": "65534",
+    "gecos": "",
+    "home": "/var/lib/nfs",
+    "shell": "/usr/sbin/nologin"
+  }
+}

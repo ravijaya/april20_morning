@@ -1,0 +1,29 @@
+datatype
+
+a. simple / scalar
+    i. numeric
+        int
+        float
+        complex
+    ii. strings aka immutable object (unicode)
+        a. regular string
+        b. raw string
+        c. doc string
+        d. bytes (nw programming, ftp, ssh, http), read binary file (image, pdf, mp3, mp4)
+    iii. boolean
+    iv. nonetype
+
+
+b. collections / compound
+    i. list  aka array , (ordered collections), O(n)
+    ii. tuple aka read-only list, immutable object, arrays of constant eg: weekdays month, interm value, select query
+    iii.dict aka hash, (key, value) pair, O(1), dns loopup, lookup db, directoryd
+    iv. set  aka (unordered collections, hashed list = hash + list)
+
+
+Sequences type {str, list, tuple}
+
+    operations
+        i. indexing
+        ii. slicing
+        iii. iteration
